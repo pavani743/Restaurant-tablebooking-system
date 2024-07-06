@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="../images/icon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goeat Dineout | Food Menu</title>
+</head>
+
+<body>
+    
+    <header>
+        <div class="header">
+
+            
+            <div class="sign">
+                <div class="sign-box">
+                    <div class="bar">
+                        <i class="fa-solid fa-xmark" id="x-sign-mb"></i>
+                    </div>
+                    
+                    <div class="signup">
+                        <h3>Sign Up</h3>
+                        <form action="sign.php" method="POST">
+                            <label for="id">Userid</label></br>
+                            <input type="text" placeholder="User Id" name="userid" id=""></br>
+                            <label for="fullname">Enter Full Name</label></br>
+                            <input type="text" placeholder="Full Name" name="fullname" id=""></br>
+                            <label for="email">Enter E-mail</label></br>
+                            <input type="email" placeholder="E-mail" name="email" id=""></br>
+                            <label for="password">Create Password</label></br>
+                            <input type="password" placeholder="Password" name="password" id=""></br>
+                            <label for="copassword">Confirm Password</label></br>
+                            <input type="password" placeholder="Confirm Password" name="copassword" id=""></br>
+                            <input type="submit" value="Sign Up">
+                            <p id="to-signin">Already have an account? Sign In</p>
+                        </form>
+                    </div>
+                    
+                    <div class="signin">
+                        <h3>Sign In</h3>
+                        <form action="login.php" method="POST">
+                            <label for="email2">Enter Your E-mail:</label>
+                            <input type="email" placeholder="E-mail" name="email2" id="">
+                            <label for="password2">Enter Password: </label>
+                            <input type="password" placeholder="Password" name="password2" id="">
+                            <input type="submit" value="Sign In">
+                        </form>
+                        <p>Forgot Password?</p>
+                        <p id="to-signup">Don't have an account? Sign Up</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="headerbar">
+                <div class="account">
+                    <ul>
+                        <a href="./index.html">
+                            <li><i class="fa-solid fa-house-chimney"></i></li>
+                        </a>
+                        <a href="#">
+                            <li><i class="fa-solid fa-magnifying-glass searchicon" id="searchicon1"></i></li>
+                        </a>
+                        <div class="search" id="searchinput1">
+                            <input type="search" name="" id="">
+                            <i class="fa-solid fa-magnifying-glass srchicon"></i>
+                        </div>
+                        <a href="#">
+                            <li><i class="fa-solid fa-user" id="user-mb"></i></li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="nav">
+                    <ul>
+                        <a href="./index.html">
+                            <li>Home</li>
+                        </a>
+                        <a href="./About.html">
+                            <li>About</li>
+                        </a>
+                        <a href="./menu.html">
+                            <li>Food Menu</li>
+                        </a>
+                        <a href="./book.html">
+                            <li>Book table</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="logo">
+                <img src="images/official_logo.png" alt="logo">
+            </div>
+            
+            <div class="bar">
+                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-xmark" id="hdcross"></i>
+            </div>
+            
+            <div class="nav">
+                <ul>
+                    <a href="./index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="./About.html">
+                        <li>About</li>
+                    </a>
+                    <a href="./menu.html">
+                        <li>Food Menu</li>
+                    </a>
+                    <a href="./book.html">
+                        <li>Book table</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="account">
+                <ul>
+                    <a href="./index.html">
+                        <li><i class="fa-solid fa-house-chimney"></i></li>
+                    </a>
+                    <a href="#">
+                        <li><i class="fa-solid fa-magnifying-glass searchicon" id="searchicon2"></i></li>
+                    </a>
+                    <div class="search" id="searchinput2">
+                        <input type="search" name="" id="">
+                        <i class="fa-solid fa-magnifying-glass srchicon"></i>
+                    </div>
+                    <a href="#">
+                        <li><i class="fa-solid fa-user" id="user-lap"></i></li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </header>
+    
+
+    <div class="menu">
+        <div class="menu1">
+            <div>
+                <h1>Food Menu</h1>
+            </div>
+            <div class="fav-head">
+                <div class="fav-food">
+                    <div class="item">
+                        <div>
+                            <img src="images/spicy butter.jpg" alt="Food item">
+                        </div>
+                        <h3>Spicy Butter Chicken</h3>
+                        <p>Smoky, succulent, spiced, grilled, aromatic, flavorful.</p>
+                        <p class="fav-price">₹220</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="images/biriyani1.png" alt="Food item">
+                        </div>
+                        <h3>Chicken Biriyani</h3>
+                        <p>Creamy, tangy, spicy, rich, succulent, flavorful </p>
+                        <p class="fav-price">₹140</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="images/tandoori lamb.jpg" alt="Food item">
+                        </div>
+                        <h3>Tandoori Lamb</h3>
+                        <p>Fragrant, flavorful, aromatic, tender, spiced, rice.</p>
+                        <p class="fav-price">₹310</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="images/fish curry.jpg" alt="Food item">
+                        </div>
+                        <h3>Fish Curry</h3>
+                        <p>Tangy, rich, spicy, flavorful, tender, aromatic</p>
+                        <p class="fav-price">₹210</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="images/mutton korma.jpg" alt="Food item">
+                        </div>
+                        <h3>Mutton Korma</h3>
+                        <p>Rich, aromatic, hearty, spiced, tender, flavorful</p>
+                        <p class="fav-price">₹240</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="images/prawn.jpg" alt="Food item">
+                        </div>
+                        <h3>Prawns</h3>
+                        <p>Juicy, succulent, flavorful, seasoned, grilled, delectable.</p>
+                        <p class="fav-price">₹280</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="images/Aloo-Gobi.jpg" alt="Food item">
+                        </div>
+                        <h3>Aloo-Gobi</h3>
+                        <p>Juicy, succulent, flavorful, seasoned, grilled, delicious</p>
+                        <p class="fav-price">₹180</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="images/gobi.jpg" alt="Food item">
+                        </div>
+                        <h3>Gobi Manchuria</h3>
+                        <p>Crispy, spicy, tangy, flavorful, Indo-Chinese</p>
+                        <p class="fav-price">₹160</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="images/question.png" alt="Food item">
+                        </div>
+                        <h3>Veg Biriyani</h3>
+                        <p>Aromatic, spiced, flavorful, colorful, hearty, delicious.</p>
+                        <p class="fav-price">₹110</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="images/palak paneer.jpg" alt="Food item">
+                        </div>
+                        <h3>Palak Paneer</h3>
+                        <p>Creamy, spinach-infused, spiced, tender paneer, flavorful.</p>
+                        <p class="fav-price">₹200</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="images/paneer tikka.jpg" alt="Food item">
+                        </div>
+                        <h3>Paneer Tikka</h3>
+                        <p>Marinated, grilled, smoky, tender, spiced, flavorful.</p>
+                        <p class="fav-price">₹250</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="images/food2.jpg" alt="Food item">
+                        </div>
+                        <h3>Soft Noodles</h3>
+                        <p>Tender, silky, savory, flavorful, boiled, delicious.</p>
+                        <p class="fav-price">₹150</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="added-items">
+        <h2>Added Items</h2>
+        <ul id="added-items-list"></ul>
+        <p class="total-items">Total: <span id="total-items ">0</span></p>
+    </div>
+</div>
+<div class="payment-mode">
+    <label for="payment-mode">Choose Payment Mode:</label>
+    <select id="payment-mode">
+        <option value="credit-card">Credit Card</option>
+        <option value="debit-card">Debit Card</option>
+        <option value="paypal">PayPal</option>
+        <option value="cash">Cash</option>
+    </select>
+</div>
+    
+    <div class="footer">
+        <div class="footer-1">
+            <div class="logo">
+                <img src="images/official_logo.png" alt="logo">
+            </div>
+            <div>
+                <address>
+                    <p>Email: krishnasri4147@gmail.com</p>
+                    <p>YouTube: krishnaveni</p>
+                    <p>Mrs bhavana bhavani's 132,</br>Near tkr college, RN REDDY,</br> India 500020</p>
+                </address>
+            </div>
+        </div>
+        <div class="footer-2">
+            <img src="images/icon.jpg" alt="">
+            <h2>Powered by <em>Developer k²B²</em></h2>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

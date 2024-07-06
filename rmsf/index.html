@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" href="../images/icon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goeat Dineout | Home</title>
+</head>
+
+<body>
+
+    
+    <header>
+        <div class="header">
+
+            
+            <div class="sign">
+                <div class="sign-box">
+                    <div class="bar">
+                        <i class="fa-solid fa-xmark" id="x-sign-mb"></i>
+                    </div>
+                    <div class="signup">
+                        <h3>Sign Up</h3>
+                        <form action="sign.php" method='POST'>
+                            <label for="userid">Userid</label></br>
+                            <input type="text" placeholder="User Id" name="userid" id=""></br>
+                            <label for="fullname">Enter Full Name</label></br>
+                            <input type="text" placeholder="Full Name" name="fullname" id=""></br>
+                            <label for="email/moblie number">Enter E-mail or moblie number</label></br>
+                            <input type="email" placeholder="E-mail" name="email" id=""></br>
+                            <label for="password">Create Password</label></br>
+                            <input type="password" placeholder="Password" name="password" id=""></br>
+                            <label for="copassword">Confirm Password</label></br>
+                            <input type="password" placeholder="Confirm Password" name="copassword" id=""></br>
+                            <input type="submit" value="Sign Up">
+                            <p id="to-signin">Already have an account? Sign In</p>
+                        </form>
+                    </div>
+                    
+                    <div class="signin">
+                        <h3>Sign In</h3>
+                        <form action="login.php" method='POST'>
+                            <label for="email2">Enter Your E-mail:</label>
+                            <input type="email" placeholder="E-mail" name="email2" id="">
+                            <label for="password2">Enter Password: </label>
+                            <input type="password" placeholder="Password" name="password2" id="">
+                            <input type="submit" value="Sign In">
+                        </form>
+                        <p>Forgot Password?</p>
+                        <p id="to-signup">Don't have an account? Sign Up</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="headerbar">
+                <div class="account">
+                    <ul>
+                        <a href="./index.html">
+                            <li><i class="fa-solid fa-house-chimney"></i></li>
+                        </a>
+                        <a href="#">
+                            <li><i class="fa-solid fa-magnifying-glass searchicon" id="searchicon1"></i></li>
+                        </a>
+                        <div class="search" id="searchinput1">
+                            <input type="search" name="" id="">
+                            <i class="fa-solid fa-magnifying-glass srchicon"></i>
+                        </div>
+                        <a href="#">
+                            <li><i class="fa-solid fa-user" id="user-mb"></i></li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="nav">
+                    <ul>
+                        <a href="./index.html">
+                            <li>Home</li>
+                        </a>
+                        <a href="./About.html">
+                            <li>About</li>
+                        </a>
+                        <a href="./book.html">
+                            <li>Book Table</li>
+                        </a>
+                        <a href="./menu.html">
+                            <li>Food Menu</li>
+                        </a>    
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="logo">
+                <img src="images/official_logo.png" alt="logo">
+            </div>
+            
+            <div class="bar">
+                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-xmark" id="hdcross"></i>
+            </div>
+            
+            <div class="nav">
+                <ul>
+                    <a href="./index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="./About.html">
+                        <li>About</li>
+                    </a>
+                    <a href="./book.html">
+                        <li>Book Table</li>
+                    </a>
+                    <a href="./menu.html">
+                        <li>Food Menu</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="account">
+                <ul>
+                    <a href="./index.html">
+                        <li><i class="fa-solid fa-house-chimney"></i></li>
+                    </a>
+                    <a href="#">
+                        <li><i class="fa-solid fa-magnifying-glass searchicon" id="searchicon2"></i></li>
+                    </a>
+                    <div class="search" id="searchinput2">
+                        <input type="search" name="" id="">
+                        <i class="fa-solid fa-magnifying-glass srchicon"></i>
+                    </div>
+                    <a href="#">
+                        <li><i class="fa-solid fa-user" id="user-lap"></i></li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </header>
+    
+
+    
+    <div class="home">
+        
+        <div class="main_slide">
+            <div>
+                <h1>Find <span> Delicious Food </span> in Your Healthy Life...</h1>
+                <p>Discover a world of culinary delights in your daily life with GoeatDineout. Indulge in a variety of delicious foods that add flavor and joy to your healthy lifestyle. Explore now!</p>
+                <button class="red_btn" id="visitNowButton">Visit Now <i class="fa-solid fa-arrow-right-long"></i></button>
+            </div>
+            <div>
+                <img src="images/biriyani1.png" alt="">
+            </div>
+        </div>
+        
+
+    
+        
+        <div class="food-items">
+            <div class="item">
+                <div>
+                    <img src="images/paneer.png" alt="Food item">
+                </div>
+                <h3>Paneer</h3>
+                <p>Delicious paneer starters with a tempting aroma and mouthwatering presentation.</p>
+                <button class="white_btn">See Menu</button>
+            </div>
+            <div class="item">
+                <div>
+                    <img src="images/butter chicken.png" alt="Food item">
+                </div>
+                <h3>Butter Chicken</h3>
+                <p>Creamy butter chicken with tender chicken, rich sauce, and aromatic spices.</p>
+                <button class="white_btn">See Menu</button>
+            </div>
+            <div class="item">
+                <div>
+                    <img src="images/fish .png" alt="Food item">
+                </div>
+                <h3>Fish Fry</h3>
+                <p>Crispy, seasoned fish fry with a golden-brown coating and savory flavors.</p>
+                <button class="white_btn">See Menu</button>
+            </div>
+        </div>
+    
+
+        
+        <div class="main_slide2">
+            <div class="foodimg">
+                <img src="images/question.png" alt="">
+            </div>
+            <div class="question">
+                <div>
+                    <h2>Why People Choose Us?</h2>
+                </div>
+                <div>
+                    <div class="q-ans">
+                        <div>
+                            <img src="images/answer1.png" alt="">
+                        </div>
+                        <div>
+                            <h4>Choose your favorite</h4>
+                            <p>Exquisite cuisine, warm ambiance, friendly service; a memorable dining experience.</p>
+                        </div>
+                    </div>
+                    <div class="q-ans">
+                        <div>
+                            <img src="images/answer2.png" alt="">
+                        </div>
+                        <div>
+                            <h4>Choose your favorite</h4>
+                            <p>Distinctive flavors, impeccable hygiene, and a welcoming atmosphere create satisfaction.</p>
+                        </div>
+                    </div>
+                    <div class="q-ans">
+                        <div>
+                            <img src="images/answer3.png" alt="">
+                        </div>
+                        <div>
+                            <h4>Choose your favorite</h4>
+                            <p>nique culinary creations, attentive staff, and a passion for hospitality.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        
+
+        
+
+        <div class="main_slide3">
+            <div class="fav-head">
+                <h3>Our Popular Food Items</h3>
+                <p>Explore our diverse menu featuring popular food items like mouthwatering paneer tikka, aromatic butter chicken, and delightful biryani. Each dish is crafted with care, ensuring a memorable culinary journey for all,Elevating your dining experience.</p>
+            </div>
+        
+            <div class="fav-food">
+                <div class="item">
+                    <div>
+                        <img src="images/question.png" alt="Food item">
+                    </div>
+                    <h3>veg Biriyani</h3>
+                    <p>Flavorful veg biryani with aromatic rice, vibrant vegetables, and aromatic spices.</p>
+                    <p class="fav-price">₹110</p>
+                </div>
+                <div class="item">
+                    <div>
+                        <img src="images/paneer.png" alt="Food item">
+                    </div>
+                    <h3>Paneer</h3>
+                    <p>Tender paneer roast, charred to perfection with bold spices and flavors.</p>
+                    <p class="fav-price">₹160</p>
+                </div>
+                <div class="item">
+                    <div>
+                        <img src="images/biriyani1.png" alt="Food item">
+                    </div>
+                    <h3>Chicken Biriyani</h3>
+                    <p>succulent chicken biryani, fragrant rice, and aromatic spices create delightful flavors.</p>
+                    <p class="fav-price">₹140</p>
+                </div>
+                <div class="item">
+                    <div>
+                        <img src="images/fish .png" alt="Food item">
+                    </div>
+                    <h3>Fish Roast</h3>
+                    <p>Crispy fish roast with bold seasonings, tantalizing the taste buds delightfully.</p>
+                    <p class="fav-price">₹210</p>
+                </div>
+            </div>
+            
+            <div class="dsgn"></div>
+        </div>
+        
+
+        
+        <div class="main_slide4">
+
+            <div class="chef-feed">
+                <h2>Customer <span style="color: red;">Feedback</span></h2>
+                <p>We appreciate your feedback and value your input. Your comments help us enhance our services to better meet your needs. Please feel free to share any specific insights or suggestions you may have. Thank you for choosing our product/service, and we look forward to continually improving your experience with us.</p>
+                <div class="chef-detail">
+                    <div>
+                        <img src="images/icon.jpg" alt="">
+                    </div>
+                    <div>
+                        <h6>Goeat Dineout</h6>
+                        <p>Developer k²B²</p>
+                    </div>
+                </div>
+                <div class="chef-vic">
+                    <div>
+                        <i class="fa-solid fa-hand-peace"></i>
+                        <h4>68</h4>
+                        <p>patrons delighted, savoring culinary joy, taste, and warm ambiance.</p>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-trophy"></i>
+                        <h4>956</h4>
+                        <p>accolades, a feast of praise for exceptional dining experiences.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="chef">
+                <img src="images/chef4.png" alt="">
+            </div>
+        </div>
+        
+
+        
+        <div class="letter">
+            <div class="letter-head">
+                <h2>Subscribe <span>Newsletter</span></h2>
+            </div>
+            <div class="letter-input">
+                <div>
+                    <input type="email" placeholder="Example@email.com">
+                </div>
+                <button class="red_btn">Subscribe</button>
+            </div>
+        </div>
+        
+    </div>
+
+    
+    <div class="footer">
+        <div class="footer-1">
+            <div class="logo">
+                <img src="images/official_logo.png" alt="logo">
+            </div>
+            <div>
+                <address>
+                    <p>Email: krishnasri4147@gmail.com</p>
+                    <p>YouTube: krishnaveni</p>
+                    <p>Mrs bhavana bhavani's 132,</br>Near tkr college, RN REDDY,</br> India 500020</p>
+                </address>
+            </div>
+        </div>
+        <div class="footer-2">
+            <img src="images/icon.jpg" alt="">
+            <h2>Powered by <em>Developer k²B²</em></h2>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
